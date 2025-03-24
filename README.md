@@ -22,12 +22,9 @@ Abaixo está uma captura de tela do site:
 
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-- **HTML5**: Utilizado para estruturar o conteúdo e criar as páginas do site.
-- **CSS3**: Estilização e design responsivo, garantindo que o site seja acessível e otimizado para diferentes dispositivos.
-- **JavaScript (Opcional)**: Pode ser adicionado para melhorar a interatividade (ex.: simuladores de custos, calculadoras, etc.).
+- **HTML**: Utilizado para estruturar o conteúdo e criar as páginas do site.
+- **CSS**: Estilização e design responsivo, garantindo que o site seja acessível e otimizado para diferentes dispositivos.
 - **Imagens**: Utilização de imagens de alta qualidade para melhorar a experiência visual e atrair a atenção do usuário.
 
-## 📂 Estrutura do Projeto
 
-A estrutura do projeto é organizada da seguinte forma:
 
