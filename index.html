@@ -1,67 +1,201 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 
 <head>
     <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Plantio Agrícola</title>
+    <meta name="description"
+        content="Cultivo Moderno Sustentável - Tudo sobre técnicas agrícolas sustentáveis, tecnologia e gestão de custos para otimizar sua produção">
+    <title>Cultivo Moderno Sustentável (CMS) | Agricultura Inteligente</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@400;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <h1>Plantio Agrícola</h1>
+        <div class="logo-container">
+            <img src="logoCMS.png" alt="Cultivo Moderno Sustentável (CMS)" class="logo-img">
+            <div class="logo-text">
+                <h1>Cultivo Moderno Sustentável</h1>
+                <p class="tagline">Agricultura Inteligente para o Futuro</p>
+            </div>
+        </div>
         <nav>
-            <a href="index.html">Início</a>
-            <a href="plantio.html">Plantio Agrícola</a>
-            <a href="ferramentas.html">Ferramentas</a>
-            <a href="custos.html">Custos</a>
-            <a href="contato.html">Contato</a>
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link">Início</a></li>
+                <li><a href="plantio.html" class="nav-link">Técnicas Sustentáveis</a></li>
+                <li><a href="ferramentas.html" class="nav-link">Tecnologia Agrícola</a></li>
+                <li><a href="custos.html" class="nav-link">Gestão de Custos</a></li>
+                <li><a href="sobre.html" class="nav-link">Sobre Nós</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
     </header>
-    <div class="banner-image">
-        <img src="https://images.pexels.com/photos/943700/pexels-photo-943700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Imagem representando plantio agrícola">
-        <div class="banner-text">
-            <h2>Tudo sobre plantio agrícola em um só lugar!</h2>
-            <p>Descubra técnicas de plantio, ferramentas agrícolas, custos de produção e muito mais para otimizar sua plantação.</p>
-            <a href="#sobre">Saiba Mais</a>
-        </div>
-    </div>
 
-    <div class="sections" id="sobre">
-        <div class="section">
-            <h3>Sobre Plantio Agrícola</h3>
-            <p>Breve resumo das técnicas e importância do planejamento agrícola.</p>
-            <a href="plantio.html">Ver Mais</a>
-        </div>
-        <div class="section">
-            <h3>Ferramentas e Cálculos</h3>
-            <p>Simuladores, calculadoras e recursos essenciais para otimizar seu plantio.</p>
-            <a href="ferramentas.html">Acessar</a>
-        </div>
-        <div class="section">
-            <h3>Custos e Orçamentos</h3>
-            <p>Saiba como calcular custos e investir com eficiência no plantio.</p>
-            <a href="custos.html">Saiba Mais</a>
-        </div>
-        <div class="section">
-            <h3>Contato</h3>
-            <p>Fale conosco para mais informações e suporte.</p>
-            <a href="contato.html">Fale Conosco</a>
-        </div>
-    </div>
+    <main>
+        <section class="hero-banner">
+            <div class="hero-image">
+                <img src="https://images.pexels.com/photos/943700/pexels-photo-943700.jpeg"
+                    alt="Agricultor utilizando tecnologia moderna no campo">
+            </div>
+            <div class="hero-content">
+                <h1>Transforme sua agricultura com técnicas sustentáveis</h1>
+                <p class="hero-subtitle">Aprenda a aumentar sua produtividade enquanto preserva o meio ambiente</p>
+                <div class="hero-cta">
+                    <a href="plantio.html" class="cta-button">Comece Agora</a>
+                    <a href="#destaques" class="cta-button secondary">Conheça Mais</a>
+                </div>
+            </div>
+        </section>
 
-    <footer>
-        <p>&copy; 2025 Plantio Agrícola. Todos os direitos reservados.</p>
-        <p>
-            <a href="index.html">Início</a> |
-            <a href="plantio.html">Plantio</a> |
-            <a href="ferramentas.html">Ferramentas</a> |
-            <a href="custos.html">Custos</a> |
-            <a href="contato.html">Contato</a>
-        </p>
+        <section id="destaques" class="features">
+            <h2 class="section-title">Como podemos ajudar você?</h2>
+            <div class="features-grid">
+                <article class="feature-card">
+                    <div class="feature-icon">
+                        <img src="icons/tecnicas-icon.svg" alt="Ícone de técnicas sustentáveis">
+                    </div>
+                    <h3>Técnicas Sustentáveis</h3>
+                    <p>Domine métodos inovadores que aumentam a produtividade enquanto reduzem o impacto ambiental.</p>
+                    <a href="plantio.html" class="feature-link">Explorar técnicas →</a>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">
+                        <img src="icons/tech-icon.svg" alt="Ícone de tecnologia">
+                    </div>
+                    <h3>Tecnologia Agrícola</h3>
+                    <p>Ferramentas digitais e equipamentos modernos para otimizar cada etapa do seu plantio.</p>
+                    <a href="ferramentas.html" class="feature-link">Ver ferramentas →</a>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">
+                        <img src="icons/custos-icon.svg" alt="Ícone de gráfico financeiro">
+                    </div>
+                    <h3>Gestão de Custos</h3>
+                    <p>Métodos comprovados para reduzir despesas e maximizar o retorno do seu investimento.</p>
+                    <a href="custos.html" class="feature-link">Calcular custos →</a>
+                </article>
+
+                <article class="feature-card">
+                    <div class="feature-icon">
+                        <img src="icons/sobre-icon.svg" alt="Ícone sobre nós">
+                    </div>
+                    <h3>Sobre Nós</h3>
+                    <p>Conheça nossa missão de promover uma agricultura mais eficiente e sustentável.</p>
+                    <a href="sobre.html" class="feature-link">Nossa história →</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <h2 class="section-title">O que dizem agricultores como você</h2>
+            <div class="testimonials-container">
+                <div class="testimonial">
+                    <blockquote>
+                        "As técnicas do CMS reduziram meus custos em 30% enquanto aumentei minha produção!"
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <img src="images/farmer1.jpg" alt="João Silva, agricultor">
+                        <p>João Silva<br><span>Produtor de grãos</span></p>
+                    </div>
+                </div>
+
+                <div class="testimonial">
+                    <blockquote>
+                        "Finalmente encontrei recursos que unem sustentabilidade e resultados práticos!"
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <img src="images/farmer2.jpg" alt="Maria Oliveira, agricultora">
+                        <p>Maria Oliveira<br><span>Produtora de hortaliças</span></p>
+                    </div>
+                </div>
+
+                <div class="testimonial">
+                    <blockquote>
+                        "A calculadora de custos me ajudou a planejar melhor minha próxima safra."
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <img src="images/farmer3.jpg" alt="Carlos Mendes, agricultor">
+                        <p>Carlos Mendes<br><span>Produtor de frutas</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="cta-content">
+                <h2>Pronto para transformar sua produção agrícola?</h2>
+                <p>Cadastre-se para receber nosso guia gratuito com as 10 melhores práticas sustentáveis</p>
+                <form class="cta-form">
+                    <input type="text" placeholder="Seu nome" required>
+                    <input type="email" placeholder="Seu melhor e-mail" required>
+                    <button type="submit" class="cta-button">Quero o guia gratuito</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="logoCMS-white.png" alt="CMS" class="footer-logo">
+                <p>Agricultura Inteligente para o Futuro</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><img src="icons/facebook.svg" alt="Facebook"></a>
+                    <a href="#" aria-label="Instagram"><img src="icons/instagram.svg" alt="Instagram"></a>
+                    <a href="#" aria-label="YouTube"><img src="icons/youtube.svg" alt="YouTube"></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="plantio.html">Técnicas</a></li>
+                    <li><a href="ferramentas.html">Tecnologia</a></li>
+                    <li><a href="custos.html">Custos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contato</h3>
+                <address>
+                    <p>Email: <a href="mailto:contato@cmsagricultura.com.br">contato@cmsagricultura.com.br</a></p>
+                    <p>Telefone: <a href="tel:+5511999999999">(11) 99999-9999</a></p>
+                </address>
+            </div>
+
+            <div class="footer-newsletter">
+                <h3>Receba nossas dicas</h3>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Seu melhor e-mail" required>
+                    <button type="submit">Assinar</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Cultivo Moderno Sustentável (CMS). Todos os direitos reservados.</p>
+            <div class="legal-links">
+                <a href="politica-privacidade.html">Política de Privacidade</a>
+                <a href="termos-uso.html">Termos de Uso</a>
+            </div>
+        </div>
     </footer>
+
+    <script src="js/menu.js" defer></script>
+    <script src="js/animate.js" defer></script>
 </body>
 
 </html>

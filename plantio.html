@@ -1,177 +1,93 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 
 <head>
     <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Sobre Plantio Agrícola</title>
+    <meta name="description" content="Técnicas agrícolas sustentáveis para aumentar produtividade e reduzir impacto ambiental">
+    <title>Técnicas Sustentáveis | Cultivo Moderno Sustentável</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <style>
-        .tecnicas {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
-        }
-
-        .card {
-            display: flex;
-            align-items: center;
-            width: 80%;
-            margin: 20px 0;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        .card img {
-            width: 200px;
-            height: auto;
-            border-radius: 10px;
-        }
-
-        .card-content {
-            flex: 1;
-            padding: 20px;
-        }
-
-        .right {
-            flex-direction: row;
-        }
-
-        .left {
-            flex-direction: row-reverse;
-        }
-
-        .info-card {
-            width: 80%;
-            background: #f9f9f9;
-            padding: 30px;
-            margin: 20px auto;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        .info-card h2 {
-            color: #4CAF50;
-        }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <h1>Plantio Agrícola</h1>
+        <div class="logo-container">
+            <img src="logoCMS.png" alt="Cultivo Moderno Sustentável (CMS)" class="logo-img" loading="lazy">
+            <div class="logo-text">
+                <h1>Cultivo Moderno Sustentável</h1>
+                <p class="tagline">Agricultura Inteligente para o Futuro</p>
+            </div>
+        </div>
         <nav>
-            <a href="index.html">Início</a>
-            <a href="plantio.html">Plantio Agrícola</a>
-            <a href="ferramentas.html">Ferramentas</a>
-            <a href="custos.html">Custos</a>
-            <a href="contato.html">Contato</a>
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link">Início</a></li>
+                <li><a href="plantio.html" class="nav-link current-page">Técnicas Sustentáveis</a></li>
+                <li><a href="ferramentas.html" class="nav-link">Tecnologia Agrícola</a></li>
+                <li><a href="custos.html" class="nav-link">Gestão de Custos</a></li>
+                <li><a href="sobre.html" class="nav-link">Sobre Nós</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
     </header>
 
-    <main>
-        <section class="tecnicas">
-            <h2>Técnicas de Plantio</h2>
-            <div class="card right">
-                <img src="https://assets.revistacultivar.com.br/2b8e6-PVA-Leste---Algod--o-ap--s-Milheto--8-1-ton-MS-.jpg"
-                    alt="Plantio Direto">
-                <div class="card-content">
-                    <h3>Plantio Direto</h3>
-                    <p>Técnica que evita o revolvimento do solo, preservando sua estrutura e reduzindo a erosão.</p>
-                </div>
-            </div>
-            <div class="card left">
-                <img src="https://tmffertilizantes.com.br/wp-content/uploads/2022/09/1.jpg" alt="Rotação de Culturas">
-                <div class="card-content">
-                    <h3>Rotação de Culturas</h3>
-                    <p>Alternância de diferentes culturas em uma mesma área para melhorar a fertilidade do solo e
-                        controlar pragas.</p>
-                </div>
-            </div>
-            <div class="card right">
-                <img src="https://blog4.mfrural.com.br/wp-content/uploads/2020/12/plantio-soja-milho.jpg"
-                    alt="Consórcio de Culturas">
-                <div class="card-content">
-                    <h3>Consórcio de Culturas</h3>
-                    <p>Cultivo simultâneo de diferentes espécies no mesmo espaço, promovendo maior aproveitamento dos
-                        recursos.</p>
-                </div>
-            </div>
-            <div class="card left">
-                <img src="https://www.correiodopovo.com.br/image/contentid/policy:1.1478279:1711459885/WhatsApp%20Image%202024-03-18%20at%2018.12.01.jpeg.jpeg?a=3%3A2&$p$a=4a2ecfa"
-                    alt="Plantio em Contorno">
-                <div class="card-content">
-                    <h3>Plantio em Contorno</h3>
-                    <p>Realizado seguindo as curvas de nível do terreno, reduzindo a erosão e o escoamento superficial.
-                    </p>
-                </div>
-            </div>
-            <div class="card right">
-                <img src="https://blog.buscarrural.com/wp-content/uploads/2021/04/agrofloresta-buscar-rural-scaled.jpg"
-                    alt="Agrofloresta">
-                <div class="card-content">
-                    <h3>Agrofloresta</h3>
-                    <p>Integração de árvores, culturas agrícolas e, às vezes, animais, promovendo biodiversidade e
-                        sustentabilidade.</p>
-                </div>
-            </div>
-        </section>
+    Conteudo da página de técnicas sustentáveis    
 
-        <section class="info-section">
-            <div class="info-card">
-                <h2>Pesticidas</h2>
-                <p>O uso de pesticidas é essencial para o controle de pragas, mas deve ser feito com responsabilidade
-                    para minimizar impactos ambientais e à saúde humana.</p>
-                <h3>Melhores Marcas e Custo-Benefício</h3>
-                <ul>
-                    <li><strong>Bayer:</strong> Produtos eficazes, porém com custo mais elevado.</li>
-                    <li><strong>Syngenta:</strong> Boa relação custo-benefício e ampla gama de pesticidas.</li>
-                    <li><strong>Basf:</strong> Alta eficiência e soluções inovadoras.</li>
-                    <li><strong>FMC:</strong> Alternativa com preços mais acessíveis e bons resultados.</li>
-                </ul>
-                <h3>Dicas de Uso Seguro</h3>
-                <ul>
-                    <li>Escolha pesticidas adequados para a cultura e o tipo de praga.</li>
-                    <li>Respeite as doses recomendadas pelo fabricante.</li>
-                    <li>Utilize equipamentos de proteção individual (EPIs) durante a aplicação.</li>
-                    <li>Evite aplicar pesticidas em dias de vento ou chuva.</li>
-                    <li>Adote práticas integradas de manejo de pragas para reduzir a dependência de produtos químicos.
-                    </li>
-                </ul>
-                <p>Optar por pesticidas de qualidade e utilizá-los corretamente garante maior produtividade e menos
-                    danos ao meio ambiente.</p>
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="logoCMS-white.png" alt="CMS" class="footer-logo" loading="lazy">
+                <p>Agricultura Inteligente para o Futuro</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><img src="icons/facebook.svg" alt="Facebook"></a>
+                    <a href="#" aria-label="Instagram"><img src="icons/instagram.svg" alt="Instagram"></a>
+                    <a href="#" aria-label="YouTube"><img src="icons/youtube.svg" alt="YouTube"></a>
+                </div>
             </div>
-            <div class="info-card">
-                <h2>Calendário de Plantio</h2>
-                <p>O calendário de plantio é essencial para planejar as atividades agrícolas. Ele varia conforme a
-                    região e o clima. Aqui estão mais detalhes:</p>
+            
+            <div class="footer-links">
+                <h3>Links Rápidos</h3>
                 <ul>
-                    <li><strong>Janeiro:</strong> Ideal para o plantio de milho e soja em regiões de clima tropical.
-                    </li>
-                    <li><strong>Março:</strong> Feijão e hortaliças como alface e cenoura podem ser plantados nesta
-                        época.</li>
-                    <li><strong>Junho:</strong> Culturas de inverno, como trigo e cevada, são recomendadas.</li>
-                    <li><strong>Setembro:</strong> Época de plantar arroz e algodão em áreas irrigadas.</li>
-                    <li><strong>Novembro:</strong> Cana-de-açúcar e café podem ser plantados, aproveitando o início das
-                        chuvas.</li>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="plantio.html" class="current-page">Técnicas</a></li>
+                    <li><a href="ferramentas.html">Tecnologia</a></li>
+                    <li><a href="custos.html">Custos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
                 </ul>
-                <p>Consulte um agrônomo ou um calendário específico para sua região para obter melhores resultados.</p>
             </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Plantio Agrícola. Todos os direitos reservados.</p>
-        <p>
-            <a href="index.html">Início</a> |
-            <a href="plantio.html">Plantio</a> |
-            <a href="ferramentas.html">Ferramentas</a> |
-            <a href="custos.html">Custos</a> |
-            <a href="contato.html">Contato</a>
-        </p>
+            
+            <div class="footer-contact">
+                <h3>Contato</h3>
+                <address>
+                    <p>Email: <a href="mailto:contato@cmsagricultura.com.br">contato@cmsagricultura.com.br</a></p>
+                    <p>Telefone: <a href="tel:+5511999999999">(11) 99999-9999</a></p>
+                </address>
+            </div>
+            
+            <div class="footer-newsletter">
+                <h3>Receba nossas dicas</h3>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Seu melhor e-mail" required>
+                    <button type="submit">Assinar</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Cultivo Moderno Sustentável (CMS). Todos os direitos reservados.</p>
+            <div class="legal-links">
+                <a href="politica-privacidade.html">Política de Privacidade</a>
+                <a href="termos-uso.html">Termos de Uso</a>
+                <a href="mapa-site.html">Mapa do Site</a>
+            </div>
+        </div>
     </footer>
-</body>
 
+</body>
 </html>

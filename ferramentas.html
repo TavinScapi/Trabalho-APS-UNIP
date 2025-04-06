@@ -1,114 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 
 <head>
     <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Ferramentas Agrícolas</title>
+    <meta name="description"
+        content="Técnicas agrícolas sustentáveis para aumentar produtividade e reduzir impacto ambiental">
+    <title>Tecnologia Agrícola | Cultivo Moderno Sustentável</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <style>
-        .info-section {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
-        }
-
-        .info-card {
-            width: 80%;
-            background: #f9f9f9;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
-
-        .info-card h2 {
-            color: #4CAF50;
-        }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@400;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <h1>Ferramentas Agrícolas</h1>
+        <div class="logo-container">
+            <img src="logoCMS.png" alt="Cultivo Moderno Sustentável (CMS)" class="logo-img" loading="lazy">
+            <div class="logo-text">
+                <h1>Cultivo Moderno Sustentável</h1>
+                <p class="tagline">Agricultura Inteligente para o Futuro</p>
+            </div>
+        </div>
         <nav>
-            <a href="index.html">Início</a>
-            <a href="plantio.html">Plantio Agrícola</a>
-            <a href="ferramentas.html">Ferramentas</a>
-            <a href="custos.html">Custos</a>
-            <a href="contato.html">Contato</a>
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link">Início</a></li>
+                <li><a href="plantio.html" class="nav-link ">Técnicas Sustentáveis</a></li>
+                <li><a href="ferramentas.html" class="nav-link current-page">Tecnologia Agrícola</a></li>
+                <li><a href="custos.html" class="nav-link">Gestão de Custos</a></li>
+                <li><a href="sobre.html" class="nav-link">Sobre Nós</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
     </header>
 
-    <main>
-        <section class="info-section">
-            <div class="info-card">
-                <h2>Máquinas Agrícolas</h2>
-                <p>O uso de máquinas agrícolas aumenta a eficiência e reduz o esforço manual no campo. Algumas das
-                    principais máquinas incluem:</p>
-                <ul>
-                    <li><strong>Tratores:</strong> Essenciais para preparo do solo e transporte de cargas.</li>
-                    <li><strong>Colheitadeiras:</strong> Agilizam a colheita de grãos como soja, milho e trigo.</li>
-                    <li><strong>Plantadeiras:</strong> Facilitam o plantio uniforme e eficiente.</li>
-                    <li><strong>Pulverizadores:</strong> Auxiliam na aplicação de defensivos agrícolas com precisão.
-                    </li>
-                </ul>
-            </div>
-            <div class="info-card">
-                <h2>Sistemas de Irrigação</h2>
-                <p>A irrigação eficiente garante maior produtividade e uso racional da água. Os principais sistemas são:
-                </p>
-                <ul>
-                    <li><strong>Gotejamento:</strong> Econômico e eficiente, libera água diretamente na raiz das
-                        plantas.</li>
-                    <li><strong>Aspersão:</strong> Simula a chuva, distribuindo a água de maneira uniforme.</li>
-                    <li><strong>Pivot central:</strong> Ideal para grandes lavouras, gira em torno de um eixo central
-                        irrigando amplas áreas.</li>
-                </ul>
-            </div>
-            <div class="info-card">
-                <h2>Calculadora de Consumo de Água</h2>
-                <p>Utilize esta ferramenta para estimar a quantidade de água necessária para irrigação:</p>
-                <form>
-                    <label for="area">Área cultivada (m²):</label>
-                    <input type="number" id="area" name="area" required>
-                    <label for="cultura">Cultura:</label>
-                    <select id="cultura" name="cultura">
-                        <option value="milho">Milho</option>
-                        <option value="soja">Soja</option>
-                        <option value="trigo">Trigo</option>
-                    </select>
-                    <button type="button" onclick="calcularConsumo()">Calcular</button>
-                    <p id="resultado"></p>
-                </form>
-            </div>
-            <div class="info-card">
-                <h2>Simulador de Produtividade</h2>
-                <p>Estime a produtividade da sua lavoura com base em diferentes fatores.</p>
-                <form>
-                    <label for="areaProd">Área cultivada (ha):</label>
-                    <input type="number" id="areaProd" name="areaProd" required>
-                    <label for="fator">Fator de produção:</label>
-                    <input type="number" id="fator" name="fator" required>
-                    <button type="button" onclick="calcularProdutividade()">Calcular</button>
-                    <p id="produtividade"></p>
-                </form>
-            </div>
-        </section>
-    </main>
+    Conteúdo da página de Tecnologia Agrícola
 
-    <footer>
-        <p>&copy; 2025 Plantio Agrícola. Todos os direitos reservados.</p>
-        <p>
-            <a href="index.html">Início</a> |
-            <a href="plantio.html">Plantio</a> |
-            <a href="ferramentas.html">Ferramentas</a> |
-            <a href="custos.html">Custos</a> |
-            <a href="contato.html">Contato</a>
-        </p>
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="logoCMS-white.png" alt="CMS" class="footer-logo" loading="lazy">
+                <p>Agricultura Inteligente para o Futuro</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><img src="icons/facebook.svg" alt="Facebook"></a>
+                    <a href="#" aria-label="Instagram"><img src="icons/instagram.svg" alt="Instagram"></a>
+                    <a href="#" aria-label="YouTube"><img src="icons/youtube.svg" alt="YouTube"></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="plantio.html" class="current-page">Técnicas</a></li>
+                    <li><a href="ferramentas.html">Tecnologia</a></li>
+                    <li><a href="custos.html">Custos</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contato</h3>
+                <address>
+                    <p>Email: <a href="mailto:contato@cmsagricultura.com.br">contato@cmsagricultura.com.br</a></p>
+                    <p>Telefone: <a href="tel:+5511999999999">(11) 99999-9999</a></p>
+                </address>
+            </div>
+
+            <div class="footer-newsletter">
+                <h3>Receba nossas dicas</h3>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Seu melhor e-mail" required>
+                    <button type="submit">Assinar</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Cultivo Moderno Sustentável (CMS). Todos os direitos reservados.</p>
+            <div class="legal-links">
+                <a href="politica-privacidade.html">Política de Privacidade</a>
+                <a href="termos-uso.html">Termos de Uso</a>
+                <a href="mapa-site.html">Mapa do Site</a>
+            </div>
+        </div>
     </footer>
+
 </body>
 
 </html>
