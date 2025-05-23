@@ -19,116 +19,277 @@
 
 <body>
     <header>
-        <div class="logo-container">
-            <img src="imagens/logoCMS.png" alt="Cultivo Moderno Sustentável (CMS)" class="logo-img">
-            <div class="logo-text">
+        <div class="container-logo">
+            <img src="imagens/logoCMS.png" alt="Cultivo Moderno Sustentável (CMS)" class="imagem-logo">
+            <div class="texto-logo">
                 <h1>Cultivo Moderno Sustentável</h1>
-                <p class="tagline">Agricultura Inteligente para o Futuro</p>
+                <p class="slogan">Agricultura Inteligente para o Futuro</p>
             </div>
         </div>
         <nav>
-            <ul class="nav-list">
-                <li><a href="index.html" class="nav-link">Início</a></li>
-                <li><a href="Técnicas Sustentáveis/plantio.html" class="nav-link">Técnicas Sustentáveis</a></li>
-                <li><a href="Tecnologia Agrícola/ferramentas.html" class="nav-link">Tecnologia Agrícola</a></li>
-                <li><a href="Gestão de Custos/custos.html" class="nav-link">Gestão de Custos</a></li>
-                <li><a href="Sobre Nós/sobre.html" class="nav-link">Sobre Nós</a></li>
+            <ul class="lista-navegacao">
+                <li><a href="index.html" class="link-navegacao">Início</a></li>
+                <li><a href="#tecnicas" class="link-navegacao">Técnicas Sustentáveis</a></li>
+                <li><a href="#sobre" class="link-navegacao">Sobre Nós</a></li>
             </ul>
-            <div class="mobile-menu-btn">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
         </nav>
     </header>
 
     <main>
-        <section class="hero-banner">
-            <div class="hero-image">
+        <section class="destaque-principal">
+            <div class="imagem-destaque">
                 <img src="https://images.pexels.com/photos/943700/pexels-photo-943700.jpeg"
                     alt="Agricultor utilizando tecnologia moderna no campo">
             </div>
-            <div class="hero-content">
+            <div class="conteudo-destaque">
                 <h1>Transforme sua agricultura com técnicas sustentáveis</h1>
-                <p class="hero-subtitle">Aprenda a aumentar sua produtividade enquanto preserva o meio ambiente</p>
-                <div class="hero-cta">
-                    <a href="Técnicas Sustentáveis/plantio.html" class="cta-button">Comece Agora</a>
-                    <a href="#destaques" class="cta-button secondary">Conheça Mais</a>
+                <p class="subtitulo-destaque">Aprenda a aumentar sua produtividade enquanto preserva o meio ambiente</p>
+                <div class="acoes-destaque">
+                    <a href="#tecnicas" class="botao-principal">Comece Agora</a>
+                    <a href="#destaques" class="botao-secundario">Conheça Mais</a>
                 </div>
             </div>
         </section>
 
-        <section id="destaques" class="features">
-            <h2 class="section-title">Como podemos ajudar você?</h2>
-            <div class="features-grid">
-                <article class="feature-card">
-                    <div class="feature-icon">
+        <section id="destaques" class="recursos">
+            <h2 class="titulo-secao">Como podemos ajudar você?</h2>
+            <div class="grade-recursos">
+                <article class="cartao-recurso">
+                    <div class="icone-recurso">
                         <i class="fas fa-leaf fa-3x"></i>
                     </div>
                     <h3>Técnicas Sustentáveis</h3>
                     <p>Domine métodos inovadores que aumentam a produtividade enquanto reduzem o impacto ambiental.</p>
-                    <a href="plantio.html" class="feature-link">Explorar técnicas →</a>
+                    <a href="#tecnicas" class="link-recurso">Explorar técnicas →</a>
                 </article>
 
-                <article class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-tractor fa-3x"></i>
-                    </div>
-                    <h3>Tecnologia Agrícola</h3>
-                    <p>Ferramentas digitais e equipamentos modernos para otimizar cada etapa do seu plantio.</p>
-                    <a href="ferramentas.html" class="feature-link">Ver ferramentas →</a>
-                </article>
-
-                <article class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-chart-line fa-3x"></i>
-                    </div>
-                    <h3>Gestão de Custos</h3>
-                    <p>Métodos comprovados para reduzir despesas e maximizar o retorno do seu investimento.</p>
-                    <a href="custos.html" class="feature-link">Calcular custos →</a>
-                </article>
-
-                <article class="feature-card">
-                    <div class="feature-icon">
+                <article class="cartao-recurso">
+                    <div class="icone-recurso">
                         <i class="fas fa-users fa-3x"></i>
                     </div>
                     <h3>Sobre Nós</h3>
                     <p>Conheça nossa missão de promover uma agricultura mais eficiente e sustentável.</p>
-                    <a href="sobre.html" class="feature-link">Nossa história →</a>
+                    <a href="sobre.html" class="link-recurso">Nossa história →</a>
                 </article>
             </div>
         </section>
 
-        <section class="testimonials">
-            <h2 class="section-title">O que dizem agricultores como você</h2>
-            <div class="testimonials-container">
-                <div class="testimonial">
+        <section class="introducao-tecnicas" id="tecnicas">
+            <div class="conteudo-introducao">
+                <h2>Por que adotar técnicas sustentáveis?</h2>
+                <p>A agricultura sustentável não é apenas uma tendência - é uma necessidade para garantir a
+                    produtividade a longo prazo e a saúde do nosso planeta. Estas técnicas ajudam a:</p>
+                <ul class="lista-beneficios">
+                    <li><i class="fas fa-check-circle"></i> Reduzir o uso de água e insumos químicos</li>
+                    <li><i class="fas fa-check-circle"></i> Preservar a fertilidade do solo</li>
+                    <li><i class="fas fa-check-circle"></i> Aumentar a resistência das culturas</li>
+                    <li><i class="fas fa-check-circle"></i> Diminuir custos de produção</li>
+                    <li><i class="fas fa-check-circle"></i> Melhorar a qualidade dos produtos</li>
+                </ul>
+            </div>
+            <div class="imagem-introducao">
+                <img src="https://images.pexels.com/photos/1112080/pexels-photo-1112080.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="Agricultura sustentável">
+            </div>
+        </section>
+
+        <section class="destaque-tecnicas">
+            <h2 class="titulo-secao">Principais Técnicas Sustentáveis</h2>
+            <div class="grade-tecnicas">
+                <article class="cartao-tecnica">
+                    <div class="imagem-tecnica">
+                        <img src="https://terramagna.com.br/wp-content/uploads/2022/07/Trator-defensivo-campo-plantio-direto.png"
+                            alt="Plantio Direto">
+                    </div>
+                    <div class="conteudo-tecnica">
+                        <h3>Plantio Direto</h3>
+                        <p>Sistema que mantém a palhada sobre o solo, evitando sua erosão e mantendo a umidade,
+                            reduzindo a necessidade de preparo do solo.</p>
+                        <div class="detalhes-tecnica">
+                            <h4>Vantagens:</h4>
+                            <ul>
+                                <li>Reduz erosão em até 90%</li>
+                                <li>Economiza 30% de água</li>
+                                <li>Melhora a matéria orgânica do solo</li>
+                            </ul>
+                            <a href="plantio-direto.html" class="botao-saiba-mais">Saiba mais</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cartao-tecnica">
+                    <div class="imagem-tecnica">
+                        <img src="https://tmffertilizantes.com.br/wp-content/uploads/2022/09/1.jpg"
+                            alt="Rotação de Culturas">
+                    </div>
+                    <div class="conteudo-tecnica">
+                        <h3>Rotação de Culturas</h3>
+                        <p>Alternância planejada de diferentes culturas na mesma área para melhorar a estrutura do solo
+                            e quebrar ciclos de pragas.</p>
+                        <div class="detalhes-tecnica">
+                            <h4>Vantagens:</h4>
+                            <ul>
+                                <li>Reduz incidência de pragas</li>
+                                <li>Melhora a fertilidade do solo</li>
+                                <li>Diversifica a produção</li>
+                            </ul>
+                            <a href="rotacao-culturas.html" class="botao-saiba-mais">Saiba mais</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cartao-tecnica">
+                    <div class="imagem-tecnica">
+                        <img src="https://www.ecoagri.com.br/web/wp-content/uploads/sistemas-agroflorestais.webp"
+                            alt="Agrofloresta">
+                    </div>
+                    <div class="conteudo-tecnica">
+                        <h3>Sistemas Agroflorestais</h3>
+                        <p>Integração de árvores, culturas agrícolas e, às vezes, animais em uma mesma área, imitando
+                            ecossistemas naturais.</p>
+                        <div class="detalhes-tecnica">
+                            <h4>Vantagens:</h4>
+                            <ul>
+                                <li>Biodiversidade aumentada</li>
+                                <li>Proteção natural contra pragas</li>
+                                <li>Renda diversificada</li>
+                            </ul>
+                            <a href="agrofloresta.html" class="botao-saiba-mais">Saiba mais</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="secao-mandioca" id="mandioca">
+            <div class="cabecalho-mandioca">
+                <h2 class="titulo-secao">Guia de Plantação mais acessado</h2>
+            </div>
+
+            <div class="container-mandioca">
+                <h1>Como Plantar Mandioca</h1>
+                <article class="cartao-mandioca">
+                    <div class="conteudo-mandioca">
+                        <h3>Por que plantar mandioca?</h3>
+                        <p>A mandioca é uma das culturas mais adaptáveis ao clima brasileiro, exigindo poucos insumos e
+                            sendo resistente a secas. Ideal para:</p>
+                        <ul class="lista-beneficios">
+                            <li><i class="fas fa-check-circle"></i> Solos pobres e arenosos</li>
+                            <li><i class="fas fa-check-circle"></i> Regiões com chuvas irregulares</li>
+                            <li><i class="fas fa-check-circle"></i> Agricultura familiar ou comercial</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="cartao-mandioca">
+                    <h3><i class="fas fa-calendar-alt"></i> Melhor Época para Plantar</h3>
+                    <div class="tabela-calendario" style="overflow-x: auto;">
+                        <table>
+                            <tr>
+                                <th>Região</th>
+                                <th>Período Ideal</th>
+                                <th>Colheita (meses)</th>
+                            </tr>
+                            <tr>
+                                <td>Norte/Nordeste</td>
+                                <td>Outubro a Dezembro</td>
+                                <td>12 a 18</td>
+                            </tr>
+                            <tr>
+                                <td>Sudeste/Centro-Oeste</td>
+                                <td>Setembro a Novembro</td>
+                                <td>10 a 15</td>
+                            </tr>
+                            <tr>
+                                <td>Sul</td>
+                                <td>Agosto a Outubro</td>
+                                <td>12 a 16</td>
+                            </tr>
+                        </table>
+                        <p class="nota">* Evite plantar em meses com risco de geadas (Sul).</p>
+                    </div>
+                </article>
+
+                <article class="cartao-mandioca">
+                    <h3><i class="fas fa-seedling"></i> Como Plantar</h3>
+                    <div class="passos-plantio">
+                        <div class="passo">
+                            <h4>1. Preparo do Solo</h4>
+                            <p>Escolha solos bem drenados (evite encharcamentos). Faça análise de pH (ideal: 5.0 a 6.5)
+                                e corrija com calcário se necessário.</p>
+                        </div>
+                        <div class="passo">
+                            <h4>2. Seleção de Manivas</h4>
+                            <p>Use manivas (partes do caule) sadias, com 15-20 cm de comprimento e 3-5 gemas. Prefira
+                                variedades locais adaptadas.</p>
+                        </div>
+                        <div class="passo">
+                            <h4>3. Espaçamento</h4>
+                            <p>Plante em fileiras com 1m entre linhas e 0,8m entre plantas. Para cultivo mecanizado:
+                                1,2m x 0,6m.</p>
+                        </div>
+                        <div class="passo">
+                            <h4>4. Plantio Direto</h4>
+                            <p>Enterre as manivas inclinadas (45°) a 5-10 cm de profundidade, com as gemas voltadas para
+                                cima.</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cartao-mandioca destaque">
+                    <h3><i class="fas fa-tint"></i> Otimização de Recursos Hídricos</h3>
+                    <p>A mandioca é tolerante à seca, mas a irrigação pode aumentar a produtividade em até 40%:</p>
+                    <ul>
+                        <li><strong>Irrigação por gotejamento</strong>: Economiza 30% de água comparado à aspersão.</li>
+                        <li><strong>Mulching</strong>: Cobertura morta reduz evaporação em 50%.</li>
+                        <li><strong>Época crítica</strong>: 60-90 dias após o plantio (fase de crescimento).</li>
+                    </ul>
+                </article>
+
+                <article class="cartao-mandioca">
+                    <h3><i class="fas fa-tasks"></i> Manejo e Colheita</h3>
+                    <div class="dicas">
+                        <h4>Controle de Pragas</h4>
+                        <p>Principais ameaças: mosca-branca e ácaros. Use <strong>calda de fumo</strong> ou inimigos
+                            naturais como joaninhas.</p>
+                        <h4>Colheita</h4>
+                        <p>Faça testes de raízes a partir do 10º mês. Sinais de maturação: folhas amareladas e raízes
+                            com 2-5 cm de diâmetro.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="depoimentos">
+            <h2 class="titulo-secao">O que dizem agricultores como você</h2>
+            <div class="container-depoimentos">
+                <div class="depoimento">
                     <blockquote>
                         "As técnicas do CMS reduziram meus custos em 30% enquanto aumentei minha produção!"
                     </blockquote>
-                    <div class="testimonial-author">
+                    <div class="autor-depoimento">
                         <img src="https://images.pexels.com/photos/9324328/pexels-photo-9324328.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                             alt="João Silva, agricultor">
                         <p>João Silva<br><span>Produtor de grãos</span></p>
                     </div>
                 </div>
 
-                <div class="testimonial">
+                <div class="depoimento">
                     <blockquote>
                         "Finalmente encontrei recursos que unem sustentabilidade e resultados práticos!"
                     </blockquote>
-                    <div class="testimonial-author">
+                    <div class="autor-depoimento">
                         <img src="https://images.pexels.com/photos/7655918/pexels-photo-7655918.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                             alt="Maria Oliveira, agricultora">
                         <p>Maria Oliveira<br><span>Produtora de hortaliças</span></p>
                     </div>
                 </div>
 
-                <div class="testimonial">
+                <div class="depoimento">
                     <blockquote>
                         "A calculadora de custos me ajudou a planejar melhor minha próxima safra."
                     </blockquote>
-                    <div class="testimonial-author">
+                    <div class="autor-depoimento">
                         <img src="https://images.pexels.com/photos/2280574/pexels-photo-2280574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                             alt="Carlos Mendes, agricultor">
                         <p>Carlos Mendes<br><span>Produtor de frutas</span></p>
@@ -136,32 +297,74 @@
                 </div>
             </div>
         </section>
+
+        <section id="sobre" class="sobre-nos">
+            <h2 class="titulo-secao">Conheça Nossa Equipe</h2>
+            <p class="descricao-equipe">Somos um grupo de especialistas em agricultura sustentável comprometidos em
+                trazer soluções inovadoras para o campo.</p>
+
+            <div class="grade-equipe">
+                <article class="membro-equipe">
+                    <div class="icone-membro">
+                        <i class="fas fa-user-tie fa-3x"></i>
+                    </div>
+                    <h3>Otávio Alves Scapi</h3>
+                    <p class="RA">RA: R846512</p>
+                    <div class="contato-membro">
+                        <a href="mailto:carlos@cms.com.br"><i class="fas fa-envelope"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </article>
+
+                <article class="membro-equipe">
+                    <div class="icone-membro">
+                        <i class="fas fa-leaf fa-3x"></i>
+                    </div>
+                    <h3>Rodolfo</h3>
+                    <p class="RA">RA: R865GA7</p>
+                    <div class="contato-membro">
+                        <a href="mailto:ana@cms.com.br"><i class="fas fa-envelope"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </article>
+
+                <article class="membro-equipe">
+                    <div class="icone-membro">
+                        <i class="fas fa-tractor fa-3x"></i>
+                    </div>
+                    <h3>Kaue</h3>
+                    <p class="RA">RA: R8658F5</p>
+                    <div class="contato-membro">
+                        <a href="mailto:roberto@cms.com.br"><i class="fas fa-envelope"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </article>
+            </div>
+        </section>
     </main>
 
-    <footer class="site-footer">
-        <div class="footer-content">
-            <div class="footer-brand">
-                <img src="../imagens/logoCMS.png" alt="CMS" class="footer-logo">
+    <footer class="rodape">
+        <div class="conteudo-rodape">
+            <div class="marca-rodape">
+                <img src="../imagens/logoCMS.png" alt="CMS" class="logo-rodape">
                 <p>Agricultura Inteligente para o Futuro</p>
-                <div class="social-links">
+                <div class="redes-sociais">
                     <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                     <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
                     <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
 
-            <div class="footer-links">
+            <div class="links-rodape">
                 <h3>Links Rápidos</h3>
                 <ul>
-                    <li><a href="../index.html">Início</a></li>
-                    <li><a href="plantio.html">Técnicas</a></li>
-                    <li><a href="../Tecnologia Agrícola/ferramentas.html">Tecnologia</a></li>
-                    <li><a href="../Gestão de Custos/custos.html">Custos</a></li>
-                    <li><a href="../Sobre Nós/sobre.html">Sobre</a></li>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="#tecnicas">Técnicas Sustentáveis</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
                 </ul>
             </div>
 
-            <div class="footer-contact">
+            <div class="contato-rodape">
                 <h3>Contato</h3>
                 <address>
                     <p>Email: <a href="mailto:contato@cmsagricultura.com.br">contato@cmsagricultura.com.br</a></p>
@@ -169,9 +372,9 @@
                 </address>
             </div>
 
-            <div class="footer-newsletter">
+            <div class="newsletter-rodape">
                 <h3>Receba Novidades</h3>
-                <form class="newsletter-form">
+                <form class="formulario-newsletter">
                     <input type="email" placeholder="Seu e-mail" required>
                     <button type="submit"><i class="fas fa-paper-plane"></i></button>
                 </form>
@@ -179,78 +382,14 @@
             </div>
         </div>
 
-        <div class="footer-bottom">
+        <div class="rodape-inferior">
             <p>&copy; 2025 Cultivo Moderno Sustentável (CMS). Todos os direitos reservados.</p>
-            <div class="legal-links">
-                <a href="../politica-privacidade.html">Política de Privacidade</a>
-                <a href="../termos-uso.html">Termos de Uso</a>
+            <div class="links-legais">
+                <a href="">Política de Privacidade</a>
+                <a href="">Termos de Uso</a>
             </div>
         </div>
     </footer>
-
-    <div id="cookieConsent" class="cookie-consent">
-        <div class="cookie-content">
-            <p>Nós usamos cookies para melhorar sua experiência no site. Ao continuar navegando, você concorda com nossa
-                <a href="politica-privacidade.html" target="_blank">Política de Privacidade</a>.
-            </p>
-            <div class="cookie-buttons">
-                <button id="acceptCookies" class="cookie-btn accept">Aceitar todos</button>
-                <button id="rejectCookies" class="cookie-btn reject">Rejeitar</button>
-                <button id="customizeCookies" class="cookie-btn customize">Personalizar</button>
-            </div>
-        </div>
-    </div>
-
-    <div id="cookiePreferences" class="cookie-modal">
-        <div class="modal-content">
-            <h3>Preferências de Cookies</h3>
-            <p>Selecione quais tipos de cookies você permite que utilizemos:</p>
-
-            <div class="cookie-option">
-                <div class="option-header">
-                    <h4>Cookies Essenciais</h4>
-                    <label class="switch">
-                        <input type="checkbox" checked disabled>
-                        <span class="slider round"></span>
-                    </label>
-                </div>
-                <p class="option-description">Estes cookies são necessários para o funcionamento básico do site e não
-                    podem ser desativados.</p>
-            </div>
-
-            <div class="cookie-option">
-                <div class="option-header">
-                    <h4>Cookies de Desempenho</h4>
-                    <label class="switch">
-                        <input type="checkbox" id="performanceCookies" checked>
-                        <span class="slider round"></span>
-                    </label>
-                </div>
-                <p class="option-description">Estes cookies nos ajudam a entender como os visitantes interagem com o
-                    site.</p>
-            </div>
-
-            <div class="cookie-option">
-                <div class="option-header">
-                    <h4>Cookies de Marketing</h4>
-                    <label class="switch">
-                        <input type="checkbox" id="marketingCookies">
-                        <span class="slider round"></span>
-                    </label>
-                </div>
-                <p class="option-description">Estes cookies são usados para mostrar anúncios relevantes para você.</p>
-            </div>
-
-            <div class="modal-buttons">
-                <button id="savePreferences" class="cookie-btn accept">Salvar preferências</button>
-                <button id="cancelPreferences" class="cookie-btn reject">Cancelar</button>
-            </div>
-        </div>
-    </div>
-
-    <script src="js/menu.js" defer></script>
-    <script src="js/animate.js" defer></script>
-    <script src="js/cookies.js" defer></script>
 </body>
 
 </html>
